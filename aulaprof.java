@@ -10,9 +10,9 @@ public class aulaprof {
 		Scanner in = new Scanner(System.in);
 		Random numero = new Random ();
 		
-		System.out.println("MD5 no pedra papel tesoura");
+		System.out.println("MD3 no pedra papel tesoura");
 		
-		while (vitoriasCpu<3 && vitoriasPlayer1<3) {
+		while (vitoriasCpu<2 && vitoriasPlayer1<2) {
 		
 		System.out.println("Qual a sua escolha?\n0 - Pedra\n1 - Papel\n2 - Tesoura");
 		codigo = in.nextInt();
